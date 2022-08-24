@@ -1,4 +1,4 @@
-package main.java.com.david.utils;
+package com.david.utils;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -10,7 +10,7 @@ public class Database {
 
     public Connection createConnection() {
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://localhost/employee", "root", "51162xgh");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost/emp", "root", "root");
 
         } catch (SQLException e) {
             throw new RuntimeException(e);

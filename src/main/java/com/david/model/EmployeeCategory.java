@@ -1,4 +1,4 @@
-package main.java.com.david.model;
+package com.david.model;
 
 public class EmployeeCategory {
 
